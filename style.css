@@ -1,0 +1,55 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.title h1{
+    color:burlywood;
+    font-weight: 900;
+}
+.search-button{
+    text-align: center;
+    padding-top:50px;
+}
+.search-button button{
+    margin-left:20px;
+}
+.search-button blockquote{
+    font-size: 22px;
+    font-weight: 500;
+    color:lightslategrey;
+}
+.search-button input{
+    width:260px;
+    height:35px;
+    padding-right:5px;
+}
+.category-all{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px;
+}
+.single-item{
+    width:270px;
+    background-color:burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+.single-item img{
+    width:100%;
+    display:cover;
+}
+.single-item a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    display: block;
+}
+.single-item button{
+    width:80px;
+    border-radius: 5px;
+    background-color: orange;
+    display: block;
+    text-align: center;
+}
