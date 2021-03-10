@@ -40,16 +40,16 @@ body{
     width:100%;
     display:cover;
 }
-.single-item a{
-    text-decoration: none;
-    color:black;
-    font-weight: 700;
-    display: block;
-}
+
 .single-item button{
     width:80px;
     border-radius: 5px;
     background-color: orange;
     display: block;
     text-align: center;
+    font-weight: 600;
+}
+.single-item button:hover{
+    background-color: black;
+    color: white;
 }
